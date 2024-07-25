@@ -1,0 +1,119 @@
+/* inter */
+@font-face {
+  font-family: "inter";
+  src: url("/public/fonts/inter/Inter-Regular.woff2") format("truetype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "inter";
+  src: url("/public/fonts/inter/Inter-Medium.woff2") format("truetype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "inter";
+  src: url("/public/fonts/inter/Inter-SemiBold.woff2") format("truetype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "inter";
+  src: url("/public/fonts/inter/Inter-Bold.woff2") format("truetype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* proxima nova */
+@font-face {
+  font-family: "proxima-nova";
+  src: url("/public/fonts/proximanova/ProximaNova-Regular.woff2")
+    format("truetype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "proxima-nova";
+  src: url("/public/fonts/proximanova/proxima-nova-medium.woff2")
+    format("truetype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "proxima-nova";
+  src: url("/public/fonts/proximanova/ProximaNova-Semibold.woff2")
+    format("truetype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "proxima-nova";
+  src: url("/public/fonts/proximanova/ProximaNova-Bold.woff2")
+    format("truetype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* rubik */
+@font-face {
+  font-family: "rubik";
+  src: url("/public/fonts/rubik/Rubik-Regular.woff2") format("truetype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "rubik";
+  src: url("/public/fonts/rubik/Rubik-Medium.woff2") format("truetype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "rubik";
+  src: url("/public/fonts/rubik/Rubik-Bold.woff2") format("truetype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* sf pro text */
+@font-face {
+  font-family: "sf-pro-text";
+  src: url("/public/fonts/sfpro/sf-pro-text_regular.woff2") format("truetype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "sf-pro-text";
+  src: url("/public/fonts/sfpro/sf-pro-text_semibold.woff2") format("truetype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "sf-pro-text";
+  src: url("/public/fonts/sfpro/sf-pro-text_bold.woff2") format("truetype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+}

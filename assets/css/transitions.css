@@ -1,0 +1,48 @@
+.move-enter-active,
+.move-leave-active {
+  transition: all 0.2s ease;
+}
+
+.move-enter-from,
+.move-leave-to {
+  opacity: 0;
+  transform-origin: bottom;
+  transform: translateY(20px);
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.2s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.scale-enter-active,
+.scale-leave-active {
+  transition: all 0.2s ease;
+}
+
+.scale-enter-from,
+.scale-leave-to {
+  opacity: 0;
+  transform: scale(0.96);
+}
+
+.modal-enter-from,
+.modal-leave-to {
+  opacity: 0;
+  transform: scale(1.08);
+}
+.modal-enter-to,
+.modal-leave-from {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.modal-enter-active,
+.modal-leave-active {
+  transition: 0.2s linear;
+}

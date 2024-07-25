@@ -1,0 +1,92 @@
+@import "./fonts.css";
+@import "../icons/style.css";
+@import "./transitions.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "proxima-nova";
+  }
+
+  body {
+    @apply bg-gray-100;
+
+    &::-webkit-scrollbar {
+      @apply w-4;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      @apply bg-red/10 rounded-md;
+    }
+  }
+
+  [class^="icon-"] {
+    @apply text-2xl leading-6;
+  }
+
+  img[alt*="logo-white"] {
+    filter: invert(1);
+  }
+
+  .otp-input:hover::-webkit-inner-spin-button {
+    opacity: 0;
+  }
+
+  input:where(::-webkit-autofill, ::-webkit-autofill:focus) {
+    @apply !bg-gray-200;
+  }
+}
+
+@layer utilities {
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+
+  .flex-y-center {
+    @apply flex items-center;
+  }
+
+  .flex-x-center {
+    @apply flex justify-center;
+  }
+
+  .flex-between {
+    @apply flex items-center justify-between;
+  }
+
+  .transition-300 {
+    @apply transition duration-300;
+  }
+
+  .hover-red {
+    @apply hover:text-red transition-300;
+  }
+
+  .group-red {
+    @apply group-hover:text-red transition-300;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .comment-hover-shadow {
+    box-shadow: 0px 4px 30px 0px rgba(56, 56, 56, 0.09);
+  }
+
+  .auth-bg-pattern {
+    background-image: url("/images/auth/pattern.webp");
+    @apply w-full h-full;
+  }
+}
